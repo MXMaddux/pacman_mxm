@@ -1,0 +1,75 @@
+
+
+body {
+    background-color: black;
+    margin:0;
+    font-size: 0; 
+}
+
+#score_and_lives {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#scoreboard, #lives {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* display: flex;
+    justify-content: flex-start; */
+}
+
+div.row div {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    
+}
+
+div.brick {
+    background-color: blue;
+    
+}
+
+div.coin {
+    background: url(img/coin.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.cherry {
+    background: url(img/cherry_small.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+
+div.ghost {
+    background: url(img/ghost_small.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+
+div#pacman {
+    background: url(img/XOsf.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 22px;
+    left: 30px;
+}
+/* .ghost {
+    background: url(img/ghost_small.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+} */
+
